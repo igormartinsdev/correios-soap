@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.01.16 às 08:27:32 PM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="http://cliente.bean.master.sigep.bsb.correios.com.br/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.correios.gen"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:VerificaSeTodosObjetosCancelados">
+                  
+            <class ref="br.com.correios.gen.VerificaSeTodosObjetosCancelados"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:VerificaSeTodosObjetosCanceladosResponse">
+                  
+            <class ref="br.com.correios.gen.VerificaSeTodosObjetosCanceladosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaPagamentoNaEntrega">
+                  
+            <class ref="br.com.correios.gen.AtualizaPagamentoNaEntrega"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaPagamentoNaEntregaResponse">
+                  
+            <class ref="br.com.correios.gen.AtualizaPagamentoNaEntregaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaRemessaAgrupada">
+                  
+            <class ref="br.com.correios.gen.AtualizaRemessaAgrupada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaRemessaAgrupadaResponse">
+                  
+            <class ref="br.com.correios.gen.AtualizaRemessaAgrupadaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:bloquearObjeto">
+                  
+            <class ref="br.com.correios.gen.BloquearObjeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:bloquearObjetoResponse">
+                  
+            <class ref="br.com.correios.gen.BloquearObjetoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaCliente">
+                  
+            <class ref="br.com.correios.gen.BuscaCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaClienteResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaContrato">
+                  
+            <class ref="br.com.correios.gen.BuscaContrato"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaContratoResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaContratoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaDataAtual">
+                  
+            <class ref="br.com.correios.gen.BuscaDataAtual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaDataAtualResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaDataAtualResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaOpcoes">
+                  
+            <class ref="br.com.correios.gen.BuscaOpcoes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaOpcoesResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaOpcoesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaPagamentoEntrega">
+                  
+            <class ref="br.com.correios.gen.BuscaPagamentoEntrega"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaPagamentoEntregaResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaPagamentoEntregaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicos">
+                  
+            <class ref="br.com.correios.gen.BuscaServicos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosAdicionaisAtivos">
+                  
+            <class ref="br.com.correios.gen.BuscaServicosAdicionaisAtivos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosAdicionaisAtivosResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaServicosAdicionaisAtivosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaServicosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosValorDeclarado">
+                  
+            <class ref="br.com.correios.gen.BuscaServicosValorDeclarado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosValorDeclaradoResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaServicosValorDeclaradoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosXServicosAdicionais">
+                  
+            <class ref="br.com.correios.gen.BuscaServicosXServicosAdicionais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosXServicosAdicionaisResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaServicosXServicosAdicionaisResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaTarifaVale">
+                  
+            <class ref="br.com.correios.gen.BuscaTarifaVale"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaTarifaValeResponse">
+                  
+            <class ref="br.com.correios.gen.BuscaTarifaValeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:calculaTarifaServico">
+                  
+            <class ref="br.com.correios.gen.CalculaTarifaServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:calculaTarifaServicoResponse">
+                  
+            <class ref="br.com.correios.gen.CalculaTarifaServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarObjeto">
+                  
+            <class ref="br.com.correios.gen.CancelarObjeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarObjetoResponse">
+                  
+            <class ref="br.com.correios.gen.CancelarObjetoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarPedidoScol">
+                  
+            <class ref="br.com.correios.gen.CancelarPedidoScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarPedidoScolResponse">
+                  
+            <class ref="br.com.correios.gen.CancelarPedidoScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultaCEP">
+                  
+            <class ref="br.com.correios.gen.ConsultaCEP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultaCEPResponse">
+                  
+            <class ref="br.com.correios.gen.ConsultaCEPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlp">
+                  
+            <class ref="br.com.correios.gen.FechaPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpResponse">
+                  
+            <class ref="br.com.correios.gen.FechaPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpVariosServicos">
+                  
+            <class ref="br.com.correios.gen.FechaPlpVariosServicos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpVariosServicosResponse">
+                  
+            <class ref="br.com.correios.gen.FechaPlpVariosServicosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:geraDigitoVerificadorEtiquetas">
+                  
+            <class ref="br.com.correios.gen.GeraDigitoVerificadorEtiquetas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:geraDigitoVerificadorEtiquetasResponse">
+                  
+            <class ref="br.com.correios.gen.GeraDigitoVerificadorEtiquetasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusCartaoPostagem">
+                  
+            <class ref="br.com.correios.gen.GetStatusCartaoPostagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusCartaoPostagemResponse">
+                  
+            <class ref="br.com.correios.gen.GetStatusCartaoPostagemResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusPLP">
+                  
+            <class ref="br.com.correios.gen.GetStatusPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusPLPResponse">
+                  
+            <class ref="br.com.correios.gen.GetStatusPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:integrarUsuarioScol">
+                  
+            <class ref="br.com.correios.gen.IntegrarUsuarioScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:integrarUsuarioScolResponse">
+                  
+            <class ref="br.com.correios.gen.IntegrarUsuarioScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterClienteAtualizacao">
+                  
+            <class ref="br.com.correios.gen.ObterClienteAtualizacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterClienteAtualizacaoResponse">
+                  
+            <class ref="br.com.correios.gen.ObterClienteAtualizacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterEmbalagemLRS">
+                  
+            <class ref="br.com.correios.gen.ObterEmbalagemLRS"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterEmbalagemLRSResponse">
+                  
+            <class ref="br.com.correios.gen.ObterEmbalagemLRSResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterMensagemParametrizada">
+                  
+            <class ref="br.com.correios.gen.ObterMensagemParametrizada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterMensagemParametrizadaResponse">
+                  
+            <class ref="br.com.correios.gen.ObterMensagemParametrizadaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarDimensoesServico">
+                  
+            <class ref="br.com.correios.gen.PesquisarDimensoesServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarDimensoesServicoResponse">
+                  
+            <class ref="br.com.correios.gen.PesquisarDimensoesServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarEmbalagensPorServico">
+                  
+            <class ref="br.com.correios.gen.PesquisarEmbalagensPorServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarEmbalagensPorServicoResponse">
+                  
+            <class ref="br.com.correios.gen.PesquisarEmbalagensPorServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarParametrosPorDescricao">
+                  
+            <class ref="br.com.correios.gen.PesquisarParametrosPorDescricao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarParametrosPorDescricaoResponse">
+                  
+            <class ref="br.com.correios.gen.PesquisarParametrosPorDescricaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarServicosAdicionais">
+                  
+            <class ref="br.com.correios.gen.PesquisarServicosAdicionais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarServicosAdicionaisResponse">
+                  
+            <class ref="br.com.correios.gen.PesquisarServicosAdicionaisResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaEtiquetas">
+                  
+            <class ref="br.com.correios.gen.SolicitaEtiquetas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaEtiquetasResponse">
+                  
+            <class ref="br.com.correios.gen.SolicitaEtiquetasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaPLP">
+                  
+            <class ref="br.com.correios.gen.SolicitaPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaPLPResponse">
+                  
+            <class ref="br.com.correios.gen.SolicitaPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaXmlPlp">
+                  
+            <class ref="br.com.correios.gen.SolicitaXmlPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaXmlPlpResponse">
+                  
+            <class ref="br.com.correios.gen.SolicitaXmlPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitarPostagemScol">
+                  
+            <class ref="br.com.correios.gen.SolicitarPostagemScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitarPostagemScolResponse">
+                  
+            <class ref="br.com.correios.gen.SolicitarPostagemScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaEtiquetaPLP">
+                  
+            <class ref="br.com.correios.gen.ValidaEtiquetaPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaEtiquetaPLPResponse">
+                  
+            <class ref="br.com.correios.gen.ValidaEtiquetaPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaPlp">
+                  
+            <class ref="br.com.correios.gen.ValidaPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaPlpResponse">
+                  
+            <class ref="br.com.correios.gen.ValidaPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemReversa">
+                  
+            <class ref="br.com.correios.gen.ValidarPostagemReversa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemReversaResponse">
+                  
+            <class ref="br.com.correios.gen.ValidarPostagemReversaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemSimultanea">
+                  
+            <class ref="br.com.correios.gen.ValidarPostagemSimultanea"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemSimultaneaResponse">
+                  
+            <class ref="br.com.correios.gen.ValidarPostagemSimultaneaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaDisponibilidadeServico">
+                  
+            <class ref="br.com.correios.gen.VerificaDisponibilidadeServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaDisponibilidadeServicoResponse">
+                  
+            <class ref="br.com.correios.gen.VerificaDisponibilidadeServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaModalTransporte">
+                  
+            <class ref="br.com.correios.gen.VerificaModalTransporte"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaModalTransporteResponse">
+                  
+            <class ref="br.com.correios.gen.VerificaModalTransporteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SQLException">
+                  
+            <class ref="br.com.correios.gen.SQLException"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Exception">
+                  
+            <class ref="br.com.correios.gen.Exception"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ErroMontagemRelatorio">
+                  
+            <class ref="br.com.correios.gen.ErroMontagemRelatorio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalXML">
+                  
+            <class ref="br.com.correios.gen.ServicoAdicionalXML"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoPostal">
+                  
+            <class ref="br.com.correios.gen.ObjetoPostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoPostalPK">
+                  
+            <class ref="br.com.correios.gen.ObjetoPostalPK"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:preListaPostagem">
+                  
+            <class ref="br.com.correios.gen.PreListaPostagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cartaoPostagemERP">
+                  
+            <class ref="br.com.correios.gen.CartaoPostagemERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:contratoERP">
+                  
+            <class ref="br.com.correios.gen.ContratoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:clienteERP">
+                  
+            <class ref="br.com.correios.gen.ClienteERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:gerenteConta">
+                  
+            <class ref="br.com.correios.gen.GerenteConta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:usuarioInstalacao">
+                  
+            <class ref="br.com.correios.gen.UsuarioInstalacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:parametroMaster">
+                  
+            <class ref="br.com.correios.gen.ParametroMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:contratoERPPK">
+                  
+            <class ref="br.com.correios.gen.ContratoERPPK"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:unidadePostagemERP">
+                  
+            <class ref="br.com.correios.gen.UnidadePostagemERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enderecoERP">
+                  
+            <class ref="br.com.correios.gen.EnderecoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoERP">
+                  
+            <class ref="br.com.correios.gen.ServicoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoSigep">
+                  
+            <class ref="br.com.correios.gen.ServicoSigep"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:chancelaMaster">
+                  
+            <class ref="br.com.correios.gen.ChancelaMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalERP">
+                  
+            <class ref="br.com.correios.gen.ServicoAdicionalERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:valorDeclarado">
+                  
+            <class ref="br.com.correios.gen.ValorDeclarado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:vigenciaERP">
+                  
+            <class ref="br.com.correios.gen.VigenciaERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:dimensaoTO">
+                  
+            <class ref="br.com.correios.gen.DimensaoTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:medidaTO">
+                  
+            <class ref="br.com.correios.gen.MedidaTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:embalagemLRSMaster">
+                  
+            <class ref="br.com.correios.gen.EmbalagemLRSMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:valePostal">
+                  
+            <class ref="br.com.correios.gen.ValePostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coletaSimultanea">
+                  
+            <class ref="br.com.correios.gen.ColetaSimultanea"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coleta">
+                  
+            <class ref="br.com.correios.gen.Coleta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:produto">
+                  
+            <class ref="br.com.correios.gen.Produto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:remetente">
+                  
+            <class ref="br.com.correios.gen.Remetente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pessoa">
+                  
+            <class ref="br.com.correios.gen.Pessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalTO">
+                  
+            <class ref="br.com.correios.gen.ServicoAdicionalTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:retornoCancelamento">
+                  
+            <class ref="br.com.correios.gen.RetornoCancelamento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoSimplificado">
+                  
+            <class ref="br.com.correios.gen.ObjetoSimplificado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coletaReversa">
+                  
+            <class ref="br.com.correios.gen.ColetaReversa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objeto">
+                  
+            <class ref="br.com.correios.gen.Objeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:mensagemParametrizadaTO">
+                  
+            <class ref="br.com.correios.gen.MensagemParametrizadaTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusGerente">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.StatusGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoGerente">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.TipoGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusUsuario">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.StatusUsuario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:categoriaServico">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.CategoriaServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:simNao">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.SimNao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusPlp">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.StatusPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusObjetoPostal">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.StatusObjetoPostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoEmbalagem">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.TipoEmbalagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusCartao">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.StatusCartao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoBloqueio">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.TipoBloqueio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:acao">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.Acao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoMensagem">
+                  
+            <typesafeEnumClass ref="br.com.correios.gen.TipoMensagem"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
